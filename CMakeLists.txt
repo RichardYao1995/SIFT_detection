@@ -4,7 +4,6 @@ add_compile_options(-std=c++11)
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
-find_package(Glew REQUIRED)
 
 set(OpenCV_DIR "/home/yao/Environment/opencv-3.2.0/build")
 find_package(OpenCV REQUIRED)
